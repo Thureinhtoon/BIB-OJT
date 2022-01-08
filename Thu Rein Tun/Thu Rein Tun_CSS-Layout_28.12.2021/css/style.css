@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300 &display=swap');
+
+
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif, 'Open Sans';
+
+
+}
+
+h1 {
+  color: gray;
+  font-weight: bold;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+
+}
+
+div#header i {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+div#navbar {
+  width: 100%;
+  background-color: #4E342E;
+}
+
+div#navbar ul {
+  padding-left: 50px;
+}
+
+div#navbar ul li {
+  list-style: none;
+  float: left;
+  padding: 10px 0;
+}
+
+div#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  padding: 15px 30px;
+
+}
+
+div#navbar ul li a:hover,
+a.active {
+  background-color: #5D4037;
+}
+
+div#navbar div.shoppingcart {
+  float: right;
+  width: 100px;
+  margin-top: 25px !important;
+
+
+}
+
+span.badge {
+  background-color: #A1887E;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  padding-left: 8px;
+  padding-right: 10px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+div#slider img {
+  width: 100%;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+div.quote {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  transform: translate(-50%, 50%);
+  width: 400px;
+  font-weight: bold;
+}
+
+#welcome {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 60px 10px 0;
+}
+
+.welcome_row {
+  margin-bottom: 100px;
+
+}
+
+.left_welcome {
+  float: left;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.left_welcome img {
+  width: 150px;
+  height: 200px;
+}
+
+.right_welcome p,
+.menu_row p {
+  margin-top: 30px;
+  opacity: 0.7;
+  line-height: 30px;
+}
+
+#menu {
+  max-width: 1170px;
+  height: auto;
+  margin: 100px auto;
+  padding: 30px 0 60px 0;
+
+}
+
+.special_box {
+  width: 270px;
+  height: auto;
+  float: left;
+  margin: 0 10px;
+  border: 1px solid #d9dee1;
+}
+
+.special_box h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.special_box span {
+  text-align: center;
+  font-size: 15px;
+  color: #f25c5c;
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+.special_box a {
+  display: block;
+  padding: 10px 10px;
+  background-color: #734200;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.special_box a:hover {
+  background-color: #4B371C;
+}
+
+.special_box_star {
+  text-align: center;
+  color: #FFD300;
+  border-color: #000;
+  margin-top: 20px;
+}
+
+#footer {
+  background: #333;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.footer {
+
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+
+}
